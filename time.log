@@ -1,0 +1,29 @@
+Estimated time: 27:00
+
+      Time     Time
+Date  Started  Spent Work completed
+----  -------  ----  --------------
+10/18  11:30am 1:30  read assignment and mapped out the logic to execute 
+                     the pset.
+                     created makefile.
+10/19  3:00pm  3:30  wrote the track ADT functions.
+10/19  8:00pm  1:00  
+10/21  7:30pm  6:00 
+10/22  8:00pm  6:00
+10/23  8:30pm  5:30  learned how to use gdb
+10/24  4:00pm  2:00     
+10/24  7:00pm  10:00 finished the ADT functions and started heatmap.c
+10/25  3:30pm  4:00  finished heatmap.c
+               ----
+               39:30      TOTAL time spent
+
+I discussed my solution with: Jarret, Jonathan, Ekow, Leslie, Alina, David, Phileana.
+
+Debugging the segmentation faults was difficult because of the intricacies of keeping track of all the allocated space and pointers.  
+Using printf  statements  and gdb helped tremendously, as did discussing my logic
+with the TAs and friends. The other major problem was coming up with the concepts
+to write the functions of the ADT. The numerous for loops, pointers and segmentation faults
+were a lot to debug. It was also difficult to keep track of the indices of the all the segments, and trkpoints
+I was working with in each function and ended up spending a lot of time debugging seg faults.
+I learned the importance of trying to map out my thoughts and having diagrams.  The last bug ended up being
+using the same variable names in different functions without having initialized them.
