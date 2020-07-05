@@ -1,3 +1,3 @@
-# Recover
+# GPS Track Heatmaps
 
-A program that recovers deleted JPEG files from a memory device. This implementation iterates over a copy of a memory card, looking for JPEGs’ signatures and magically bringing lost photos back to life.
+A heatmap is a graphical representation of a 2-D array using different colors to represent different ranges of values. This application is search-and-rescue: given a GPS track, I implemented the functionality of visualizing where in the search area the track hasn't been as often so that future search efforts can be focused on those locations.
